@@ -1,0 +1,19 @@
+{
+  "name": "upgradeBootstrap",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "preferGlobal": true,
+  "bin": {
+    "upgradeBootstrap": "index.js"
+  },
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "jsdom": "^9.8.3",
+    "xmldom": "^0.1.22"
+  }
+}
