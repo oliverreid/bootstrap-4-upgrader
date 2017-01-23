@@ -54,6 +54,7 @@ var RULESET = [
       description: "Dropped the <code>.navbar-form</code> class entirely. It’s no longer necessary.",
       run: function(doc) {
       		doc = replaceClass(doc, 'navbar-form', '')
+			doc = replaceClass(doc, 'navbar-toggle', 'navbar-toggler')
       		return doc;
       }
     }, 
